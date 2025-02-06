@@ -54,4 +54,3 @@ Check out the **MagicSketch UI Prototype** here: [MagicSketch UI](https://www.fi
 We welcome contributions! Feel free to submit pull requests and report issues to help improve MagicSketch.
 
 Happy Sketching! 🎨✨
-
