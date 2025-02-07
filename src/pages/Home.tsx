@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import Layout from "../components/Layout";
 
 const Home = () => {
     const navigate =useNavigate();  
@@ -7,15 +8,18 @@ const Home = () => {
     };
 
   return (
-    <section>
-      <h2>Start story game</h2>
+    <Layout>
+      <h2>START STORY GAME</h2>
       <h4>Complete Story Mode and unlock 10 free coloring sketches!</h4>
       <div className="card">
         <button onClick={handleStartClick}>START</button>
         <p>REWARDS 0/10</p>
       </div>
       <p>Complete Story Mode and unlock 10 free coloring sketches!</p>
-    </section>
+      <div className="div2">
+       COLORING SKETCH SHOP
+      </div>
+    </Layout>
   );
 };
 

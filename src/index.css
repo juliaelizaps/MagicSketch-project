@@ -6,8 +6,8 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: rgba(8, 39, 85, 0.87);
-  color: rgba(8, 39, 85, 0.87);
+  color: #091133;
+  color: #091133;
   background-color: #f3dbdb;
   background-image: repeating-linear-gradient(0deg, rgba(236, 149, 193, 0.836) 0px, rgba(0, 0, 0, 0.1) 1px, transparent 1px, transparent 20px),
                   repeating-linear-gradient(90deg,  rgba(236, 149, 193, 0.836) 0px, rgba(0, 0, 0, 0.1) 1px, transparent 1px, transparent 20px);
@@ -22,14 +22,17 @@
 body {
   margin: 0;
   padding: 0;
+  
 }
 
 nav{
   align-items: start;
   display: flex;
-  padding: 8px;
-  background-color: #ee8ad093;
+  padding: 4px;
+  background-color: #f593a0c4;
+  height: 85px;
 
+  
 h1 {
   flex-grow: 1;
 }
@@ -43,10 +46,23 @@ h1 {
 }
 
 h4 {
-  color: rgba(8, 39, 85, 0.87);
+  color: #091133;
   font-size: 1em;
   line-height: 2;
 
+}
+div.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+div.layout-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-grow: 1;
 }
 
 button {
@@ -64,4 +80,14 @@ button {
 button:hover {
   border-color: #ebafe1;
 }
+
+
+footer {
+  padding: 4px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #ecd2bbc9;
+}
+
 

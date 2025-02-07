@@ -1,13 +1,18 @@
 import { Link } from "react-router-dom";
 
-const Header = () => {
+export const Header = () => {
   return (
     <nav>
       <h1>MagicSketch</h1>
-      <Link to="/">Início</Link>
+      <div className="home">
+      <Link to="/">Home</Link>
+      </div>
+      <div className="about">
+      <Link to="/">About</Link>
+      </div>
+     
     </nav>
   );
 };
 
-export default Header;
 
