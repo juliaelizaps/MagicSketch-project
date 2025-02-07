@@ -6,9 +6,6 @@ Welcome to **MagicSketch**, a fun and interactive platform where users can explo
 
 To set up and run MagicSketch locally, follow these steps:
 
-### 📌 Prerequisites
-Make sure you have **Node.js** and **npm** installed on your system. If not, download and install them from [Node.js official website](https://nodejs.org/).
-
 ### 🔧 Installation
 1. Clone this repository:
    ```sh
