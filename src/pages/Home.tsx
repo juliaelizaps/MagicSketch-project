@@ -6,6 +6,9 @@ const Home = () => {
     const handleStartClick = () => {
         navigate("/story-mode");
     };
+  //   const handleStartClick2 = () => {
+  //     navigate("/about");
+  // };
 
   return (
     <Layout>
