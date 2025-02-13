@@ -4,10 +4,11 @@ export const Header = () => {
   return (
     <nav>
       <h1>MagicSketch</h1>
-      <div className="home">
-      <Link to="/">Home</Link>
+      <div className="header-components">
+      <Link to="/">Home&nbsp;</Link>
+      <Link to="/About">About</Link>
       </div>
-      <Link to="/">About</Link>
+      
     </nav>
   );
 };
