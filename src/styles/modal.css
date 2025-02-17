@@ -1,0 +1,103 @@
+.login-text{
+  position: absolute;
+  top: 10px;
+  right:200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(224, 110, 199, 0.897);
+    padding: 60px;
+    border-radius: 10px;
+    max-width: 400px;
+    height: auto;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .modal-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal-behind {
+    position: absolute;
+    backdrop-filter: blur(4px);
+    width: 1000vw;
+    height: 185vh;
+
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    font-size: 1.5em;
+    font-weight: 700; 
+    font-family: 'Righteous', sans-serif;
+    border: 1px solid #e0185b;
+    background-color: rgba(211, 50, 171, 0.712);
+    cursor: pointer;
+    transition: border-color 1s;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    height: 25vh; /* Altura do modal */
+    width: 20vw;
+    }
+
+    .email, .password {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: -40px;
+    }
+    
+    label, input {
+      width: 100%; /* Ajuste a largura conforme necessário */
+      max-width: 400px; /* Máxima largura */
+      margin-bottom: 1px; /* Espaçamento entre label e input */
+    }
+  
+  .submit-login{
+    position: relative;
+    top: 40px;
+    right:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7683be6b;;
+    height: 30px;
+    width: 60px;
+    border-radius: 150px;
+    font-size: 1em;
+    font-weight: 700; 
+    font-family: 'Righteous', sans-serif;
+    border: 2px solid #091133;
+    transition: border-color 1s;
+    cursor: pointer;
+  }
+
+  htmlFor{
+    color: #e0185b;
+  }
+
+  
