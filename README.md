@@ -9,7 +9,7 @@ To set up and run MagicSketch locally, follow these steps:
 ### 🔧 Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/juliaelizaps/game-girls-react-app
+   git clone https://github.com/juliaelizaps/MagicSketch
    ```
 2. Navigate into the project folder:
    ```sh
@@ -24,14 +24,11 @@ To set up and run MagicSketch locally, follow these steps:
 
 In the project directory, you can run:
 
-### `npm start`
-Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `npm run dev`
+Runs the app in development mode. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
 - The page will reload when you make changes.
 - You may see any lint errors in the console.
-
-### `npm test`
-Launches the test runner in interactive watch mode. See more details about [running tests](https://facebook.github.io/create-react-app/docs/running-tests).
 
 ### `npm run build`
 Builds the app for production, creating an optimized bundle in the `build` folder.
