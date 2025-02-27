@@ -6,13 +6,13 @@
   font-weight: 400;
 
   color: #091133;
-  background-color: #f8c7d4;
-  background-image: repeating-linear-gradient(0deg, rgba(236, 149, 193, 0.836) 0px, rgba(0, 0, 0, 0.1) 1px, transparent 1px, transparent 20px),
-    repeating-linear-gradient(90deg, rgba(236, 149, 193, 0.836) 0px, rgba(0, 0, 0, 0.1) 1px, transparent 1px, transparent 20px);
+  background-color: #f3e6e9;
+  background-image: repeating-linear-gradient(0deg, rgba(238, 175, 210, 0.836) 0px, rgba(0, 0, 0, 0.1) 1px, transparent 1px, transparent 20px),
+    repeating-linear-gradient(90deg, rgba(230, 144, 190, 0.527) 0px, rgba(0, 0, 0, 0.1) 1px, transparent 1px, transparent 20px);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased; 
   -moz-osx-font-smoothing: grayscale;
 }
 
